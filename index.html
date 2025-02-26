@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización de Jugadores</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <canvas id="ballCanvas" aria-hidden="true"></canvas>
+    <div class="container">
+        <h1>⚽ Visualización de Jugadores ⚽</h1>
+        <label for="teamSelect">Selecciona un equipo:</label>
+        <select id="teamSelect"></select>
+        <div id="chartContainer"></div>
+    </div>
+    <div class="container">
+        <a href="validador.pdf" download="validador.pdf">
+            <button id="toggleBallButton">Descargar validador</button>
+        </a>
+    </div>
+    <button id="toggleBallButton" aria-label="Pausar o iniciar animación de la pelota">Parar la pelota</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
